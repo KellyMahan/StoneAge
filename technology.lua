@@ -1,0 +1,26 @@
+-- data:extend({
+--     {
+--       type = "technology",
+--       name = "stone-house",
+--       icon_size = 256, icon_minimaps = 4,
+--       icon = "__base__/graphics/technology/construction-robotics.png",
+--       effects =
+--       {
+--         {
+--           type = "unlock-recipe",
+--           recipe = "stone-house"
+--         }
+--       },
+--       prerequisites = {},
+--       unit =
+--       {
+--         count = 1,
+--         ingredients =
+--         {
+--           {"automation-science-pack", 1}
+--         },
+--         time = 30
+--       },
+--       order = "c-k-a",
+--     }
+-- })
